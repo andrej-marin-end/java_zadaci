@@ -19,23 +19,9 @@ public class Digitron1 {
            System.out.println("Za oduzimanje drugog od prvog broja, unesite znak o: ");
            System.out.println("Za mnozenje brojeva unesite znak m: ");
            System.out.println("Ukoliko zelite da podelite prvi broj sa drugim brojem, unesite znak d: ");
-
-           if (ulaz.next() == 's') {
-        	   int zbir = prviBroj + drugiBroj;
-               System.out.println("Rezultat je: " + zbir);
-           } else if (ulaz.next() == 'o') {
-        	   int zbir = prviBroj + drugiBroj;
-               System.out.println("Rezultat je: " + zbir);
-           } else if (ulaz.next() == 'm') {
-        	   int zbir = prviBroj + drugiBroj;
-               System.out.println("Rezultat je: " + zbir);
-           } else if (ulaz.next() == 'd') {
-        	   int zbir = prviBroj + drugiBroj;
-               System.out.println("Rezultat je: " + zbir);
-           }
+ 
            
-           
-           /*znak = ulaz.next().charAt(0);
+           znak = ulaz.next().charAt(0);
            switch(znak) {
           
            case 's':{
@@ -57,7 +43,7 @@ public class Digitron1 {
               int kolicnik = prviBroj / drugiBroj;
               System.out.println("Rezultat je: " + kolicnik);
           }
-           }*/
+           }
     }
 
 }
